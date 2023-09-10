@@ -1,9 +1,13 @@
-import React from 'react'
+// Footer.js
+import React from 'react';
+import '../styles/Footer.css'; // Include the CSS file for styling
 
-function Footer() {
+const Footer = () => {
   return (
-    <div>Footer</div>
-  )
-}
+    <footer className="footer">
+      <p>&copy; {new Date().getFullYear()} Anandh Kumar Design</p>
+    </footer>
+  );
+};
 
-export default Footer
+export default Footer;

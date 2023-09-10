@@ -1,0 +1,29 @@
+/* Contact.css */
+
+.contact {
+  padding: 20px;
+  background-color: #333;
+}
+
+.contact h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.social-links {
+  display: flex;
+  justify-content: center;
+}
+
+.social-links a {
+  font-size: 24px;
+  color: #007bff;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.social-links a:hover {
+  color: #000000;
+}

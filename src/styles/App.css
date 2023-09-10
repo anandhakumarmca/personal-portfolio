@@ -8,7 +8,7 @@ body {
 
 /* Apply a global font and style to the entire application */
 .App {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Customize the appearance of links */
@@ -58,7 +58,7 @@ p {
 
 /* Style buttons */
 button {
-  background-color: #007bff;
+  background-color: #333;
   color: #fff;
   font-size: 16px;
   padding: 10px 20px;
@@ -70,12 +70,12 @@ button {
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #555;
 }
 
 /* Style the hero section */
 .hero {
-  background-image: url('your-hero-background-image.jpg');
+  background-image: url("your-hero-background-image.jpg");
   background-size: cover;
   background-position: center;
   color: #fff;

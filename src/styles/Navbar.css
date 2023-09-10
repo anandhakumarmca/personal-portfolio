@@ -1,0 +1,91 @@
+/* Navbar styles */
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  border-bottom: 2px solid #484848;
+  box-shadow: 0px 4px 6px rgba(103, 103, 103, 0.1);
+}
+
+.fixed-navbar {
+  width: 100%;
+  position: fixed; /* Make the navbar fixed at the top */
+  top: 0; /* Adjust the distance from the top as needed */
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  border-bottom: 2px solid #484848;
+  box-shadow: 0px 4px 6px rgba(103, 103, 103, 0.1);
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+}
+
+.nav-links li {
+  margin-right: 20px;
+}
+
+.nav-links li:last-child {
+  margin-right: 0;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Style links on hover */
+.nav-links a:hover {
+  border-bottom: 2px solid #fff;
+}
+
+/* .logo-img {
+  width: 40px; 
+  height: 40px; 
+  margin-right: 10px; 
+  border-radius: 50%; 
+} */
+
+/* Add media query for responsive design */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 10px 0; /* Adjust padding for mobile view */
+  }
+
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .logo a {
+    font-size: 20px; /* Adjust font size for mobile view */
+  }
+
+  .nav-links {
+    margin-top: 20px;
+    flex-direction: column; /* Stack links vertically in mobile view */
+  }
+
+  .nav-links li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
